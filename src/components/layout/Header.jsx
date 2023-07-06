@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header id="header">
       <div className="container">
-        <a href="https://hoongportfolio.netlify.app">
+        <a href="https://hoongportfolio-next.netlify.app/">
           <h1>HOONG</h1>
         </a>
         <nav id="nav">

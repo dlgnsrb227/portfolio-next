@@ -11,7 +11,7 @@ import ContactSection from "@/components/section/ContactSection";
 
 export default function Home() {
   return (
-    <main>
+    <main id="main">
       <IntroSection />
       <IntroSection2 />
       <PortSection />
