@@ -47,6 +47,12 @@ export default function AbilitySection() {
         onEnterBack: () => {
           document.querySelector("#workSection1").style.opacity = "0";
         },
+        onEnter: function () {
+          document.querySelector(".link__ability").classList.add("active");
+        },
+        onLeaveBack: function () {
+          document.querySelector(".link__ability").classList.remove("active");
+        },
       },
     });
   }, []);

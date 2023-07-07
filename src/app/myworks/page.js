@@ -39,7 +39,7 @@ export default function MyWorks() {
       <section id="portpageSection1" class="section__item bg__black">
         <h2 class="blind">작업결과물 첫 번째 영역</h2>
         <div class="container">
-          <h3>Script Work</h3>
+          <h3>My Works</h3>
         </div>
       </section>
       <main id="horizontal">
@@ -57,10 +57,18 @@ export default function MyWorks() {
                 />
               </div>
               <p>Mouse Effects</p>
-              <a href="#" class="chosun">
+              <a
+                href="https://dlgnsrb227.github.io/web2023/javascript/mouse/mouseEffect01.html"
+                target="_blank"
+                class="chosun"
+              >
                 완성화면
               </a>
-              <a href="#" class="chosun">
+              <a
+                href="https://github.com/dlgnsrb227/web2023/tree/main/javascript/mouse"
+                target="_blank"
+                class="chosun"
+              >
                 소스보기
               </a>
             </div>
@@ -74,10 +82,18 @@ export default function MyWorks() {
                 />
               </div>
               <p>Parallax Effects</p>
-              <a href="#" class="chosun">
+              <a
+                href="https://dlgnsrb227.github.io/web2023/javascript/parallax/parallaxEffect01.html"
+                target="_blank"
+                class="chosun"
+              >
                 완성화면
               </a>
-              <a href="#" class="chosun">
+              <a
+                href="https://github.com/dlgnsrb227/web2023/tree/main/javascript/parallax"
+                target="_blank"
+                class="chosun"
+              >
                 소스보기
               </a>
             </div>
@@ -116,10 +132,18 @@ export default function MyWorks() {
                 />
               </div>
               <p>Quiz Effects</p>
-              <a href="#" class="chosun">
+              <a
+                href="https://dlgnsrb227.github.io/web2023/javascript/quiz/quizEffect01.html"
+                target="_blank"
+                class="chosun"
+              >
                 완성화면
               </a>
-              <a href="#" class="chosun">
+              <a
+                href="https://github.com/dlgnsrb227/web2023/tree/main/javascript/quiz"
+                target="_blank"
+                class="chosun"
+              >
                 소스보기
               </a>
             </div>
@@ -133,16 +157,24 @@ export default function MyWorks() {
                 />
               </div>
               <p>Slide Effects</p>
-              <a href="#" class="chosun">
+              <a
+                href="https://dlgnsrb227.github.io/web2023/javascript/slider/sliderEffect01.html"
+                target="_blank"
+                class="chosun"
+              >
                 완성화면
               </a>
-              <a href="#" class="chosun">
+              <a
+                href="https://github.com/dlgnsrb227/web2023/tree/main/javascript/slider"
+                target="_blank"
+                class="chosun"
+              >
                 소스보기
               </a>
             </div>
           </div>
           <div class="portpage__inner">
-            <span>Look around my script works.</span>
+            <span>Look around my site coding.</span>
             <div class="portpage__image">
               <div class="image__inner">
                 <Image
@@ -153,10 +185,18 @@ export default function MyWorks() {
                 />
               </div>
               <p>React Site</p>
-              <a href="#" class="chosun">
+              <a
+                href="https://hoongsite-react01.netlify.app"
+                target="_blank"
+                class="chosun"
+              >
                 완성화면
               </a>
-              <a href="#" class="chosun">
+              <a
+                href="https://github.com/dlgnsrb227/react2023-3/blob/main/src/App.js"
+                target="_blank"
+                class="chosun"
+              >
                 소스보기
               </a>
             </div>
@@ -170,10 +210,18 @@ export default function MyWorks() {
                 />
               </div>
               <p>Vue Site</p>
-              <a href="#" class="chosun">
+              <a
+                href="https://hoongsite2023-vue01.netlify.app"
+                target="_blank"
+                class="chosun"
+              >
                 완성화면
               </a>
-              <a href="#" class="chosun">
+              <a
+                href="https://github.com/dlgnsrb227/site2023-vue01"
+                target="_blank"
+                class="chosun"
+              >
                 소스보기
               </a>
             </div>
@@ -187,10 +235,18 @@ export default function MyWorks() {
                 />
               </div>
               <p>Next Site</p>
-              <a href="#" class="chosun">
+              <a
+                href="https://hoongsite-next01.netlify.app"
+                target="_blank"
+                class="chosun"
+              >
                 완성화면
               </a>
-              <a href="#" class="chosun">
+              <a
+                href="https://github.com/dlgnsrb227/site2023-next01/blob/main/src/app/page.js"
+                target="_blank"
+                class="chosun"
+              >
                 소스보기
               </a>
             </div>
@@ -204,10 +260,18 @@ export default function MyWorks() {
                 />
               </div>
               <p>React Site</p>
-              <a href="#" class="chosun">
+              <a
+                href="https://hoongtube.netlify.app/"
+                target="_blank"
+                class="chosun"
+              >
                 완성화면
               </a>
-              <a href="#" class="chosun">
+              <a
+                href="https://github.com/dlgnsrb227/site-youtube01/tree/main/src"
+                target="_blank"
+                class="chosun"
+              >
                 소스보기
               </a>
             </div>

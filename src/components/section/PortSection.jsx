@@ -24,6 +24,12 @@ export default function PortSection() {
       pin: true,
       // anticipatePin: true,
       markers: false,
+      onEnter: function () {
+        document.querySelector(".link__work").classList.add("active");
+      },
+      onLeaveBack: function () {
+        document.querySelector(".link__work").classList.remove("active");
+      },
     });
   }, []);
   return (

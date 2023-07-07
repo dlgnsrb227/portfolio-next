@@ -3,6 +3,7 @@ import Image from "next/image";
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Link from "next/link";
 
 export default function PortSection3() {
   useEffect(() => {
@@ -13,8 +14,8 @@ export default function PortSection3() {
     gsap.defaults({ ease: "none", duration: 2 });
     const portAni2 = gsap.timeline();
     portAni2
-      .set(workImg, { y: "100vh" })
-      .staggerTo(workImg, 2, { y: "-100vh" }, 1.5);
+      .set(workImg, { y: "120vh" })
+      .staggerTo(workImg, 2, { y: "-150vh" }, 1);
 
     ScrollTrigger.create({
       animation: portAni2,
@@ -52,9 +53,11 @@ export default function PortSection3() {
       },
       onLeave: () => {
         document.querySelector("#horizontality").style.opacity = "1";
+        document.querySelector(".link__work").classList.remove("active");
       },
       onEnterBack: () => {
         document.querySelector("#horizontality").style.opacity = "0";
+        document.querySelector(".link__work").classList.add("active");
       },
     });
   }, []);
@@ -66,8 +69,8 @@ export default function PortSection3() {
           By<em>ScriptCoding</em>
         </h3>
         <div className="work__inner">
-          <a
-            href="https://dlgnsrb227.github.io/web2023/javascript/mouse/mouseEffect01.html"
+          <Link
+            href="/myworks"
             target="_blank"
             className="work__left work__left1"
           >
@@ -87,11 +90,11 @@ export default function PortSection3() {
               <br />
               효과를 만들었습니다.
             </p>
-          </a>
-          <a
-            href="https://dlgnsrb227.github.io/web2023/javascript/parallax/parallaxEffect01.html"
-            className="work__right work__right1"
+          </Link>
+          <Link
+            href="/myworks"
             target="_blank"
+            className="work__right work__right1"
           >
             <div className="img__box">
               <Image
@@ -109,11 +112,11 @@ export default function PortSection3() {
               <br />
               효과를 만들었습니다.
             </p>
-          </a>
-          <a
-            href="https://hoong-game.web.app/"
-            className="work__left work__left2"
+          </Link>
+          <Link
+            href="/myworks"
             target="_blank"
+            className="work__left work__left2"
           >
             <div className="img__box">
               <Image
@@ -131,11 +134,11 @@ export default function PortSection3() {
               <br />
               효과를 만들었습니다.
             </p>
-          </a>
-          <a
-            href="https://dlgnsrb227.github.io/web2023/javascript/quiz/quizEffect01.html"
-            className="work__right work__right2"
+          </Link>
+          <Link
+            href="/myworks"
             target="_blank"
+            className="work__right work__right2"
           >
             <div className="img__box">
               <Image
@@ -153,11 +156,11 @@ export default function PortSection3() {
               <br />
               퀴즈효과를 만들었습니다.
             </p>
-          </a>
-          <a
-            href="https://dlgnsrb227.github.io/web2023/javascript/slider/sliderEffect01.html"
-            className="work__left work__left3"
+          </Link>
+          <Link
+            href="/myworks"
             target="_blank"
+            className="work__left work__left3"
           >
             <div className="img__box">
               <Image
@@ -175,11 +178,11 @@ export default function PortSection3() {
               <br />
               화면전환 효과를 만들었습니다.
             </p>
-          </a>
-          <a
-            href="https://hoongsite-react01.netlify.app"
-            className="work__right work__right3"
+          </Link>
+          <Link
+            href="/myworks"
             target="_blank"
+            className="work__right work__right3"
           >
             <div className="img__box">
               <Image
@@ -197,11 +200,11 @@ export default function PortSection3() {
               <br />
               웹표준을 준수하여 코딩했습니다.
             </p>
-          </a>
-          <a
-            href="https://hoongsite2023-vue01.netlify.app"
-            className="work__left work__left4"
+          </Link>
+          <Link
+            href="/myworks"
             target="_blank"
+            className="work__left work__left4"
           >
             <div className="img__box">
               <Image
@@ -219,11 +222,11 @@ export default function PortSection3() {
               <br />
               웹표준을 준수하여 코딩했습니다.
             </p>
-          </a>
-          <a
-            href="https://hoongsite-next01.netlify.app"
-            className="work__right work__right4"
+          </Link>
+          <Link
+            href="/myworks"
             target="_blank"
+            className="work__right work__right4"
           >
             <div className="img__box">
               <Image
@@ -241,7 +244,27 @@ export default function PortSection3() {
               <br />
               웹표준을 준수하여 코딩했습니다.
             </p>
-          </a>
+          </Link>
+          <Link
+            href="/myworks"
+            target="_blank"
+            className="work__left work__left5"
+          >
+            <div className="img__box">
+              <Image
+                src="/assets/images/webstandard__04.png"
+                width={500}
+                height={700}
+                alt="웹표준코딩사이트 이미지"
+              />
+            </div>
+            <span>
+              Youtube <em>API</em>
+            </span>
+            <p className="chosun">
+              Youtube API를 사용하여 Youtube 페이지를 만들었습니다.
+            </p>
+          </Link>
         </div>
       </div>
     </section>

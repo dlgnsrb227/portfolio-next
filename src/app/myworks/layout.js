@@ -1,11 +1,9 @@
-import React from "react";
-
 export const metadata = {
-  title: "Portfolio by Next",
-  description: "create portfolio by Next",
+  title: "Hoong's Works",
+  description: "Works of Javascript, Site Coding",
 };
 
-export default function MyworksLayout({ children }) {
+export default function MyWorkLayout({ children }) {
   return (
     <html lang="ko">
       <body>{children}</body>

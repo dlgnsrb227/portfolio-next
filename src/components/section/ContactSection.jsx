@@ -1,6 +1,26 @@
-import React from "react";
+import Link from "next/link";
+import React, { useEffect } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/all";
 
 export default function ContactSection() {
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    ScrollTrigger.create({
+      trigger: "#contactSection1",
+      start: "top top",
+      markers: "true",
+      onEnter: function () {
+        document.querySelector(".link__ability").classList.remove("active");
+        document.querySelector(".link__contact").classList.add("active");
+      },
+      onLeaveBack: function () {
+        document.querySelector(".link__ability").classList.add("active");
+        document.querySelector(".link__contact").classList.remove("active");
+      },
+    });
+  }, []);
   return (
     <section id="contactSection1" className="section__item bg__black">
       <h2 className="blind">컨택트 영역</h2>
@@ -35,9 +55,9 @@ export default function ContactSection() {
             <span>2023.06</span>
           </div>
           <div className="foot__inner">
-            <a href="introSection1" className="backtop">
+            <Link href="/" className="backtop">
               BACK TO TOP
-            </a>
+            </Link>
           </div>
         </div>
       </div>

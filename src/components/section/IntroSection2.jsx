@@ -51,6 +51,18 @@ export default function IntroSection2() {
       pin: true,
       anticipatePin: true,
       markers: false,
+      onEnter: function () {
+        document.querySelector(".link__about").classList.add("active");
+      },
+      onEnterBack: function () {
+        document.querySelector(".link__about").classList.add("active");
+      },
+      onLeave: function () {
+        document.querySelector(".link__about").classList.remove("active");
+      },
+      onLeaveBack: function () {
+        document.querySelector(".link__about").classList.remove("active");
+      },
       onUpdate: (self) => {
         let progress = self.progress.toFixed(4);
         // console.log(progress);

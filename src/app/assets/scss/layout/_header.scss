@@ -42,12 +42,30 @@
         border-radius: 50px;
 
         li {
+          position: relative;
           a {
             display: inline-block;
             font-size: 24px;
             letter-spacing: 2px;
             color: #fff;
             padding: 17px 30px 15px;
+          }
+
+          &::before {
+            content: "";
+            width: 5px;
+            height: 5px;
+            background-color: #fff;
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            top: 15%;
+            transform: translate(-50%, -15%);
+            opacity: 0;
+            transition: opacity 0.3s;
+          }
+          &.active::before {
+            opacity: 1;
           }
         }
       }
