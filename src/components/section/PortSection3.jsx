@@ -29,10 +29,10 @@ export default function PortSection3() {
       onUpdate: (self) => {
         let progress = self.progress.toFixed(3);
         // console.log("onUpdate", self.progress.toFixed(3));
-        if (progress > 0.653) {
+        if (progress > 0.583) {
           document.querySelector("#portSection3").classList.add("bg__white");
           document.querySelector("#portSection3").style.color = "black";
-        } else if (progress < 0.653 && progress > 0) {
+        } else if (progress < 0.583 && progress > 0) {
           document.querySelector("#portSection3").classList.remove("bg__white");
           document.querySelector("#portSection3").style.color = "white";
         }

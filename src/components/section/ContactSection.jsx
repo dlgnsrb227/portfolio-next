@@ -10,7 +10,7 @@ export default function ContactSection() {
     ScrollTrigger.create({
       trigger: "#contactSection1",
       start: "top top",
-      markers: "true",
+      markers: false,
       onEnter: function () {
         document.querySelector(".link__ability").classList.remove("active");
         document.querySelector(".link__contact").classList.add("active");
