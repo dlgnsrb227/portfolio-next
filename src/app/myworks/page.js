@@ -52,7 +52,7 @@ export default function MyWorks() {
                 <Image
                   width={500}
                   height={300}
-                  src="/assets/images/portpage__img01.png"
+                  src="/assets/images/portpage__img02.png"
                   alt="마우스이펙트 이미지"
                 />
               </div>
@@ -77,7 +77,7 @@ export default function MyWorks() {
                 <Image
                   width={500}
                   height={300}
-                  src="/assets/images/portpage__img01.png"
+                  src="/assets/images/portpage__img03.png"
                   alt="패럴랙스이펙트 이미지"
                 />
               </div>
@@ -127,7 +127,7 @@ export default function MyWorks() {
                 <Image
                   width={500}
                   height={300}
-                  src="/assets/images/portpage__img01.png"
+                  src="/assets/images/portpage__img04.png"
                   alt="퀴즈이펙트 이미지"
                 />
               </div>
@@ -152,7 +152,7 @@ export default function MyWorks() {
                 <Image
                   width={500}
                   height={300}
-                  src="/assets/images/portpage__img01.png"
+                  src="/assets/images/portpage__img05.png"
                   alt="슬라이드이펙트 이미지"
                 />
               </div>
@@ -180,11 +180,11 @@ export default function MyWorks() {
                 <Image
                   width={500}
                   height={300}
-                  src="/assets/images/portpage__img01.png"
-                  alt="마우스이펙트 이미지"
+                  src="/assets/images/portpage__web01.png"
+                  alt="리액트사이트 이미지"
                 />
               </div>
-              <p>React Site</p>
+              <p>React Site (API 사용)</p>
               <a
                 href="https://hoongsite-react01.netlify.app"
                 target="_blank"
@@ -205,8 +205,8 @@ export default function MyWorks() {
                 <Image
                   width={500}
                   height={300}
-                  src="/assets/images/portpage__img01.png"
-                  alt="패럴랙스이펙트 이미지"
+                  src="/assets/images/portpage__web02.png"
+                  alt="뷰사이트 이미지"
                 />
               </div>
               <p>Vue Site</p>
@@ -230,8 +230,8 @@ export default function MyWorks() {
                 <Image
                   width={500}
                   height={300}
-                  src="/assets/images/portpage__img01.png"
-                  alt="게임이펙트 이미지"
+                  src="/assets/images/portpage__web03.png"
+                  alt="넥스트페이지 이미지"
                 />
               </div>
               <p>Next Site</p>
@@ -255,11 +255,11 @@ export default function MyWorks() {
                 <Image
                   width={500}
                   height={300}
-                  src="/assets/images/portpage__img01.png"
-                  alt="퀴즈이펙트 이미지"
+                  src="/assets/images/portpage__web04.png"
+                  alt="유튜브사이트 이미지"
                 />
               </div>
-              <p>React Site</p>
+              <p>Youtub API Site</p>
               <a
                 href="https://hoongtube.netlify.app/"
                 target="_blank"
