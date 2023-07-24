@@ -11,7 +11,7 @@
 
 ------------------------------
 ## 사용 스택
-- next.js
+- next.js : https://nextjs.org/
 - gsap
 - lenis
 - netlify
