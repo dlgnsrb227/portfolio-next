@@ -11,7 +11,10 @@
 
 ------------------------------
 ## 사용 스택
-- next.js : https://nextjs.org/
-- gsap
-- lenis
-- netlify
+- next.js : (https://nextjs.org/)를 사용하여 제작된 페이지입니다.
+- gsap : (https://greensock.com/gsap/)의 ScrollTrigger를 만들어 애니메이션을 구현했습니다.
+- lenis : (https://lenis.studiofreight.com/)를 사용하여 부드러운 스크롤 효과를 구현했습니다.
+- netlify : (https://www.netlify.com/)를 사용해 사이트를 배포했습니다.
+- html, scss를 사용하여 각각의 components를 구조화시켰습니다.
+
+-----------------------------------
