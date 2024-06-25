@@ -57,12 +57,12 @@ export default function WorkSection() {
                 <strong>Works 1</strong>
                 <span>Make blog with PHP</span>
                 <div>
-                  <a
+                  {/* <a
                     href="http://hooong.dothome.co.kr/php/blog/blog.php"
                     target="_blank"
                   >
                     <em>view </em>blog
-                  </a>
+                  </a> */}
                   <a
                     href="https://github.com/dlgnsrb227/PHP2023/tree/main/blog"
                     target="_blank"
@@ -75,12 +75,12 @@ export default function WorkSection() {
                 <strong>Works 2</strong>
                 <span>Make Website with PHP</span>
                 <div>
-                  <a
+                  {/* <a
                     href="http://hooong.dothome.co.kr/php2/php/main/main.php"
                     target="_blank"
                   >
                     <em>view </em>blog
-                  </a>
+                  </a> */}
                   <a
                     href="https://github.com/dlgnsrb227/PHP2023/blob/main/back/php/main/main.php"
                     target="_blank"
@@ -93,12 +93,12 @@ export default function WorkSection() {
                 <strong>Works 3</strong>
                 <span>Make join with AJAX</span>
                 <div>
-                  <a
+                  {/* <a
                     href="http://hooong.dothome.co.kr/php2/php/join/join.php"
                     target="_blank"
                   >
                     <em>view </em>blog
-                  </a>
+                  </a> */}
                   <a
                     href="https://github.com/dlgnsrb227/PHP2023/tree/main/back/php/join"
                     target="_blank"
@@ -111,12 +111,12 @@ export default function WorkSection() {
                 <strong>Works 4</strong>
                 <span>Make login with AJAX</span>
                 <div>
-                  <a
+                  {/* <a
                     href="http://hooong.dothome.co.kr/php2/php/login/login.php"
                     target="_blank"
                   >
                     <em>view </em>blog
-                  </a>
+                  </a> */}
                   <a
                     href="https://github.com/dlgnsrb227/PHP2023/tree/main/back/php/login"
                     target="_blank"
@@ -129,12 +129,12 @@ export default function WorkSection() {
                 <strong>Works 5</strong>
                 <span>Make IDsearch with AJAX</span>
                 <div>
-                  <a
+                  {/* <a
                     href="http://hooong.dothome.co.kr/php2/php/login/loginFind.php"
                     target="_blank"
                   >
                     <em>view </em>blog
-                  </a>
+                  </a> */}
                   <a
                     href="https://github.com/dlgnsrb227/PHP2023/tree/main/back/php/login"
                     target="_blank"
@@ -147,12 +147,12 @@ export default function WorkSection() {
                 <strong>Works 6</strong>
                 <span>Make board-write with PHP</span>
                 <div>
-                  <a
+                  {/* <a
                     href="http://hooong.dothome.co.kr/php2/php/board/boardWrite.php"
                     target="_blank"
                   >
                     <em>view </em>blog
-                  </a>
+                  </a> */}
                   <a
                     href="https://github.com/dlgnsrb227/PHP2023/blob/main/back/php/board/boardWrite.php"
                     target="_blank"
@@ -165,12 +165,12 @@ export default function WorkSection() {
                 <strong>Works 7</strong>
                 <span>Make board-modify with PHP</span>
                 <div>
-                  <a
+                  {/* <a
                     href="http://hooong.dothome.co.kr/php2/php/board/board.php"
                     target="_blank"
                   >
                     <em>view </em>blog
-                  </a>
+                  </a> */}
                   <a
                     href="https://github.com/dlgnsrb227/PHP2023/blob/main/back/php/board/boardModify.php"
                     target="_blank"
@@ -183,12 +183,12 @@ export default function WorkSection() {
                 <strong>Works 8</strong>
                 <span>Make comment with PHP</span>
                 <div>
-                  <a
+                  {/* <a
                     href="http://hooong.dothome.co.kr/php/blog/blogView.php?blogID=1"
                     target="_blank"
                   >
                     <em>view </em>blog
-                  </a>
+                  </a> */}
                   <a
                     href="https://github.com/dlgnsrb227/PHP2023/tree/main/blog"
                     target="_blank"
