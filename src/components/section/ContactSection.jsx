@@ -52,7 +52,7 @@ export default function ContactSection() {
           </div>
           <div className="foot__inner">
             <span>WORKS FROM :</span>
-            <span>2023.06</span>
+            <span>2023-2024</span>
           </div>
           <div className="foot__inner">
             <Link href="/" className="backtop">
