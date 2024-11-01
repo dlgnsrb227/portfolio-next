@@ -52,7 +52,7 @@ export default function IntroSection() {
       <h2 className="blind">인트로 첫 번째 영역</h2>
       <div className="container">
         <p>
-          Front-End <em>Dveloper</em>
+          Front-End <em>Developer</em>
           <br />
           <em>Creating</em> <em>Captivating</em>
           <br />
